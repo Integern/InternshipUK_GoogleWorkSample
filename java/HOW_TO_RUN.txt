@@ -1,0 +1,11 @@
+https://github.com/internship-experience-uk/google-code-sample/tree/main/java
+
+mvn compile
+mvn exec:java
+
+mvn test
+OR
+mvn test -Dtest=Part1Test
+mvn test -Dtest=Part2Test
+mvn test -Dtest=Part3Test
+mvn test -Dtest=Part4Test
