@@ -1,0 +1,49 @@
+Persistence+Research: 3
+	There were many features of Java that I ended up using that I didn't
+	have previous knowledge of; for example, when having to sort videos
+	into lexigraphical order I learned about the Comparable class and
+	Collections service to easily sort an ArrayList of a non-generic
+	class type. I had to troubleshoot error messages that I hadn't
+	seen before by doing research online.
+	I didn't give myself a 4 as when I initally got the project running,
+	it was having issues finding the videos.txt file - I think this was
+	a technical issue that was beyond the scope of the project so I put
+	in a hacky fix to ammend it.
+
+Knowledge+Comprehension: 4
+	I passed all 4 tests with 0 failures, and coming out of it I have
+	a stronger grasp of Java and have learnt a few tips and tricks
+	along the way. Generally have more comprehension of the programming
+	language.
+
+Creativity+Design: 3
+	I tried to keep the amount of code I was writing to a minimum for
+	sleekness - how I sorted lexigraphically was quite creative, by
+	giving the classes a compareTo() function. I didn't go and make
+	my own classes though which did show a lack of forethought.
+
+Code Structure+Clean Code: 3
+	I didn't create my own new classes, which did result in me having
+	some floating variables that weren't always in use e.g. having a
+	pause variable when there was no video playing. At times I did
+	repeat code instead of putting it in its own subfunction (e.g.
+	checking if a Video existed - but these did have custom error
+	messages).
+	In other places though I did streamline my code; when search by
+	title and by tag, I had seperate methods for searching but then
+	fed the results into a function that displayed the videos and asked
+	the user if they wanted to play a found video.
+	In places where there was a chunk of code - or the methodology wasn't
+	clear - I used comments.
+	I liked using spaces and indentation to make the code as readable as
+	possible.
+
+Problem Solving+Analysis+Evaluation: 4
+	It was no easy journey getting to all 4 parts completed; a lot of
+	error messages I had to decode, tests not passing fully without it
+	being clear why. (Was difficult at times when a test would fail when
+	it got a different number of lines expected but didn't actually show
+	the lines that were printed).
+
+Parts Completed: 4
+	did all 4 innit
